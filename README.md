@@ -8,14 +8,13 @@ First you need an Azure App registration, and populate the config.json file with
 
 ## Running it
 
-Either you can run it from shell
+Either you can run it from a shell
 
 ```console
-foo@bar:~/ python3 main.py config.json
+foo@bar:~/presence $ python3 main.py config.json
 ```
 
 or you can create a docker container with the provided Dockerfile.
-
 
 ## TODO
 - [x] MS Device login session is like 5 minutes -> Use MSAL to renew tokens
