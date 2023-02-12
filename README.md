@@ -17,7 +17,8 @@ foo@bar:~/presence $ python3 main.py config.json
 or you can create a docker container with the provided Dockerfile.
 
 ## TODO
-- [ ] Dockerfile needs some improvements
+- [ ] Use Environment variables instead of a config file
+- [x] Dockerfile needs some improvements
 - [x] MS Device login session is like 5 minutes -> Use MSAL to renew tokens
 - [x] Reduce docker image size
 
