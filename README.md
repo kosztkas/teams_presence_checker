@@ -4,7 +4,7 @@ Simple python app to poll own presence information from MS Graph and control a b
 When my activity is `InACall` or `Presenting`, it turns on a light controlled by an ESP01+Relay module
 
 ## Making it work
-First you need an Azure App registration, and populate the config.json file with your apps client ID and IP.
+First you need an Azure App registration, and populate the config.json file with your apps client ID and the relays ID.
 
 ## Running it
 
